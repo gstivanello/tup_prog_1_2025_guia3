@@ -11,7 +11,7 @@ Proceso TOTALAPAGAR
 		Leer precio;
 		total <- total+cant*precio;
 		// pregunta para finalizar ciclo
-		Escribir '¿Finalizar carga? (s/n)';
+		Escribir 'Â¿Finalizar carga? (s/n)';
 		Leer nom;
 	Hasta Que nom='s'
 	Escribir 'Total a pagar: $ ', total;
